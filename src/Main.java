@@ -251,7 +251,7 @@ public class Main {
             regUsers = new ArrayList<>();
             if (fileIO.readUsers("users.txt") != null) {
               regUsers = fileIO.readUsers("users.txt");
-              if (isUsernameTaken(regUsers, regufullname)) {
+              if (isUsernameTaken(regUsers, reguuname)) {
                 System.out.println("-->Error: Username is already taken, please try again with a different username");
               } else {
 
